@@ -6,15 +6,15 @@ This is a MENU-DRIVEN user-friendly program written in PYTHON with MYSQL library
 
 HOW TO USE THE PROGRAM:
 Since this project is a menu-driven program, so a menu will be displayed asking for your choice. The main menu contains the options:
-STUDENT RECORD
-COURSE RECORD
-EXAM RECORD
-REPORT CARD OF STUDENTS
+STUDENT RECORD,
+COURSE RECORD,
+EXAM RECORD,
+REPORT CARD OF STUDENTS,
 EXIT THE PROGRAM
 In Student Record option, you can see a sub-menu which contains the options:
-Create
-Display
-Update
+Create,
+Display,
+Update,
 Delete
 You will be asked for your choice. If you choose CREATE then you will be able to create a new data which will be added to the STUDENT_INFO table using query of MYSQL. On choosing DISPLAY we can either display all the records present in the table or we can also display a particular data from the table. For UPDATE, we can modify any data of any student in the table. Lastly, DELETE option will allow you to delete a particular record/data from the table.
 Similarly for COURSE RECORD and EXAM RECORD options. COURSE RECORD deals with the course_data table and EXAM RECORD deals with student_record table in MYSQL with same options create, display, update and delete. Last but not the least, the program can print report card for each student separately. It is a user-friendly program and easy to understand.
