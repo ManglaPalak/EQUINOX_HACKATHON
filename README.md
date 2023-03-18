@@ -1,7 +1,7 @@
 PROBLEM STATEMENT:
 Build a STUDENT RESULT MANAGEMENT SYSTEM for IGDTUW.
 
-BRIEF ABOUT THE PROJECT
+BRIEF ABOUT THE PROJECT:
 This is a MENU-DRIVEN user-friendly program written in PYTHON with MYSQL library. In this program, user can create, display, update and delete data from different tables. It deals with course details, student information and student scores and it can display student report cards as well. This code calculates total marks, percentage and grade of the students. By using MYSQL, it makes the representation of data very organized and presentable. The code has used many concepts of python like user-defined functions, list, etc.
 
 HOW TO USE THE PROGRAM:
@@ -26,6 +26,6 @@ REQUIREMENTS TO RUN THE PROGRAM:
 DATABASE STATEMENT:
 "create database IGDTUW;"
 TABLE STATEMENTS:
-"create table student_info (admno int, name varchar(30), father_name varchar(30), mother_name varchar(30), mobile_no int, address varchar(30), category varchar(10))"
-"create table course_data (course varchar(30), sub1 varchar(30), sub2 varchar(30), sub3 varchar(30), sub4 varchar(30), sub5 varchar(30), sub6 varchar(30), c_code varchar(8))"
-"create table student_info (adm_no int, name varchar(30), course varchar(30), sub1 int, sub2 int, sub3 int, sub4 int, sub5 int, sub6 int, total int, percentage int, attendance int, grade varchar(3))"
+1)"create table student_info (admno int, name varchar(30), father_name varchar(30), mother_name varchar(30), mobile_no int, address varchar(30), category varchar(10))"
+2)"create table course_data (course varchar(30), sub1 varchar(30), sub2 varchar(30), sub3 varchar(30), sub4 varchar(30), sub5 varchar(30), sub6 varchar(30), c_code varchar(8))"
+3)"create table student_info (adm_no int, name varchar(30), course varchar(30), sub1 int, sub2 int, sub3 int, sub4 int, sub5 int, sub6 int, total int, percentage int, attendance int, grade varchar(3))"
